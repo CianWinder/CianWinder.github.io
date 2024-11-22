@@ -6,18 +6,28 @@
 
 /* Body Settings */
 body {
-    background-color: rgb(34, 29, 0);
+    background-color: rgb(54, 54, 54);
     font-family: 'Courier New', Courier, monospace;
 }
 
 /* Header Settings */
 h1 {
-    background-color: rgb(143, 109, 0);
-    color: rgb(26, 23, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 241, 131);
 
-    padding: 30px;
+    padding: 20px;
 
-    text-align: center;
+    /* text-align: center; */
+    font-size: 35px;
+}
+
+h2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 241, 131);
+
+    padding: 20px;
+
+    /* text-align: center; */
     font-size: 35px;
 }
 
@@ -32,8 +42,8 @@ nav {
     -webkit-flex: 0;
     -ms-flex: 0;
     flex: 0;
-    background: #ac9200;
-    padding: 20px;
+    background: #000000;
+    padding: 10px;
 }
 
 nav ul {
@@ -45,16 +55,16 @@ article {
     -webkit-flex: 8;
     -ms-flex: 8;
     flex: 8;
-    background-color: rgb(231, 220, 181);
+    background-color: rgb(29, 29, 29);
     padding: 10px;
-    color: rgb(17, 15, 0);
+    color: rgb(194, 171, 0);
 }
 
 footer {
-    background-color: rgb(143, 109, 0);
+    background-color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
-    color: rgb(12, 0, 0);
+    color: rgb(175, 175, 175);
 }
 
 
@@ -68,7 +78,8 @@ footer {
 
 /* Paragraph Settings */
 p {
-    color: rgb(12, 0, 0);
+    color: rgb(255, 208, 0);
+    padding: 10px;
 }
 
 /* Crow Settings */
@@ -79,7 +90,8 @@ p {
 }
 
 #yt {
-    color: rgb(219, 216, 173);
+    color: rgb(221, 0, 0);
+
 }
 
 
@@ -89,7 +101,7 @@ p {
 }
 
 a {
-    padding: 20px;
+    padding: 00px;
 }
 
 button {
