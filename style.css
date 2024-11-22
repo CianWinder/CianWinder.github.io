@@ -1,0 +1,104 @@
+
+/* Layout Settings */
+*{
+    box-sizing: border-box;
+}
+
+/* Body Settings */
+body {
+    background-color: rgb(34, 29, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Header Settings */
+h1 {
+    background-color: rgb(143, 109, 0);
+    color: rgb(26, 23, 0);
+
+    padding: 30px;
+
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Flexbox Container */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+/* Navigation Menu */
+nav {
+    -webkit-flex: 0;
+    -ms-flex: 0;
+    flex: 0;
+    background: #ac9200;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    -webkit-flex: 8;
+    -ms-flex: 8;
+    flex: 8;
+    background-color: rgb(231, 220, 181);
+    padding: 10px;
+    color: rgb(17, 15, 0);
+}
+
+footer {
+    background-color: rgb(143, 109, 0);
+    padding: 10px;
+    text-align: center;
+    color: rgb(12, 0, 0);
+}
+
+
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+
+
+/* Paragraph Settings */
+p {
+    color: rgb(12, 0, 0);
+}
+
+/* Crow Settings */
+#Crow {
+    padding: 20px;
+    width: 10%;
+    height: auto;
+}
+
+#yt {
+    color: rgb(219, 216, 173);
+}
+
+
+#Time {
+    padding: 20px;
+    color: rgb(219, 216, 173);
+}
+
+a {
+    padding: 20px;
+}
+
+button {
+    padding: 10px
+}
+
+
+/* @media only screen and (max-width:150px) {
+    #Crow {
+        width: 115px;
+    }
+} */
