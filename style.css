@@ -79,7 +79,15 @@ p {
 }
 
 #yt {
-    color: rgb(219, 216, 173);
+    color: rgb(221, 0, 0);
+}
+
+#ig {
+    color: rgb(216, 21, 255);
+}
+
+#tt {
+    color: rgb(0, 255, 255);
 }
 
 
